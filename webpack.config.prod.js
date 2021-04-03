@@ -7,7 +7,7 @@ module.exports = merge(basic, {
     entry: './src/index.js',
     mode: 'production',
     output: {
-        filename: '[name].[contentHash].bundle.js',
+        filename: '[name].[hash].bundle.js',
         path: path.resolve(__dirname, 'dist')
     }
 });
