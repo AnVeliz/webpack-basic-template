@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const basic = require('./webpack.config');
 
 module.exports = merge(basic, {
-    entry: './src/index.js',
+    entry: './src/index.ts',
     mode: 'production',
     output: {
         filename: '[name].[hash].bundle.js',

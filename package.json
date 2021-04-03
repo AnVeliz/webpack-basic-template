@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Just a template for webpack based projects",
-  "main": "./src/index.js",
+  "main": "./src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-prod": "webpack --config webpack.config.prod.js",
@@ -13,6 +13,10 @@
   "author": "Anatoliy",
   "license": "GPL-3.0",
   "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-typescript": "^7.13.0",
+    "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^3.0.0",
     "html-webpack-plugin": "^5.3.1",
     "webpack": "^5.30.0",
