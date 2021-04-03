@@ -1,1 +1,3 @@
-console.log("Hello from plain es5 JS");
+import { ConsoleLog } from './ConsoleLogger';
+
+ConsoleLog("Hi");
