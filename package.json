@@ -2,7 +2,7 @@
   "name": "webpack-template",
   "version": "1.0.0",
   "private": true,
-  "description": "Just a template for webpack based projects",
+  "description": "Just a template for Webpack based projects",
   "main": "./src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
